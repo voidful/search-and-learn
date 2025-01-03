@@ -34,6 +34,13 @@ To get started, we recommend the following:
 1. Follow the [installation instructions](#installation-instructions) to set up your environment etc.
 2. Replicate our test-time compute results by following the [recipe instructions](./recipes/README.md).
 
+## Contents
+
+The initial release of Search and Learn will focus on the following techniques:
+
+* **Search against verifiers:** guide LLMs to search for solutions to "verifiable problems" (math, code) by using a stepwise or process reward model to score each step. Includes techniques like Best-of-N sampling and tree search.
+* **Training process reward models (coming soon!):** train reward models to provide a sequence of scores, one for each step of the reasoning process. This ability to provide fine-grained feedback makes PRMs a natural fit for search methods with LLMs.
+
 
 # Installation instructions
 
