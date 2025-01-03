@@ -1,4 +1,5 @@
 # Recipes
+
 Here we include yaml configs to run the three test time compute variants detailed in the blog post:
 - Best of N: [`recipes/Llama-3.2-1B-Instruct/best_of_n.yaml`](Llama-3.2-1B-Instruct/best_of_n.yaml)
 - Beam Search: [`recipes/Llama-3.2-1B-Instruct/beam_search.yaml`](Llama-3.2-1B-Instruct/beam_search.yaml)
