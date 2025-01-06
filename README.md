@@ -3,12 +3,13 @@
 </p>
 
 <p align="center">
+      🤗 <a href="https://huggingface.co/collections/HuggingFaceH4/scaling-test-time-compute-with-open-models-675c3b475a0d6eb4528fec23" target="_blank">Models & Datasets</a> |
       📃 <a href="https://huggingface.co/spaces/HuggingFaceH4/blogpost-scaling-test-time-compute" target="_blank">Blog Post</a>
 </p>
 
 # Search and Learn
 
-Recipes to enhance LLM capabilities by scaling inference-time compute. Inspired by Rich Sutton's [Bitter Lesson](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf):
+Recipes to enhance LLM capabilities by scaling inference-time compute. Name inspired by Rich Sutton's [Bitter Lesson](https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf):
 
 > One thing that should be learned from the bitter lesson is the great power of general purpose methods, of methods that continue to scale with increased computation even as the available computation becomes very great. The two methods that seem to scale arbitrarily in this way are _**search**_ and _**learning**_.
 
@@ -82,9 +83,9 @@ You can now check out the `scripts` and `recipes` directories for instructions o
 └── tests                       <- Unit tests
 ```
 
-## Replicating our scaling test-time compute results
+## Replicating our test-time compute results
 
-The [recipes readme](recipes/README.md) includes launch commands and config files in order to replicate our results.
+The [`recipes` README](recipes/README.md) includes launch commands and config files in order to replicate our results.
 
 
 ## Citation
